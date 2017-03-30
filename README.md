@@ -1,8 +1,7 @@
-# Twitch App
+# Projects Page
 
-Twitch App made for freeCodeCamp.
+A small modal based site used to show off small projects I have created.
 
-Create a twitch app to show channels online and offline from curated list.
 
 
 #### Created by Richard Middleton March 2017
