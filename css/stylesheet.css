@@ -439,12 +439,13 @@ main:after {
   height: 32px; }
 
 footer {
-  background: #1f2022;
+  background: rgba(31, 32, 34, 0.8);
   display: table;
   width: 100%;
   text-align: center; }
 
 .built {
   display: table-cell;
-  vertical-align: middle; }
+  vertical-align: middle;
+  color: white; }
 /*# sourceMappingURL=stylesheet.css.map */
