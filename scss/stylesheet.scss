@@ -93,6 +93,19 @@ section {
     margin-top: 100px;
 }
 
+.about {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    z-index: 1;
+    box-shadow: 0 4px 8px 0 $shadow, 0 6px 16px 0 $shadow;
+    margin             : 140px auto 60px;
+    max-width          : 940px;
+    padding: 20px 20px 0;
+    p {
+        font-size: 1.4em;
+    }
+}
 .content {
     margin             : 20px auto 140px;
     max-width          : 960px;
