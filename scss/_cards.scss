@@ -27,7 +27,8 @@
     max-width: 20px;
   }
 
-  p { display: inline; }
+.tag { display: inline;
+ }
 
   .description {
     display: block;
@@ -36,7 +37,7 @@
 
   .username {
     font-family: "Open Sans";
-    font-size: 0.75em;
+    font-size: 1.1em;
     font-weight: 500;
   }
 }
