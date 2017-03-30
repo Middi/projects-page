@@ -9,30 +9,20 @@
 	],
 "creatorBuild": "25704",
 "files": {
-	"\/css\/cult.css": {
+	"\/css\/stylesheet.css": {
 		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/css\/cult-min.css",
+		"oAP": "\/css\/stylesheet-min.css",
 		"oF": 0,
 		"oS": 0
 		},
-	"\/css\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/style-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/css\/style.css.map": {
+	"\/css\/stylesheet.css.map": {
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/css\/style.css.map",
+		"oAP": "\/css\/stylesheet.css.map",
 		"oF": 0
 		},
 	"\/images\/close.svg": {
@@ -86,6 +76,12 @@
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
+		},
+	"\/README.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/README.html",
+		"oF": 0
 		},
 	"\/README.md": {
 		"cS": 0,
@@ -222,19 +218,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/scss\/style.scss": {
-		"aP": 1,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 1,
-		"oA": 0,
-		"oAP": "\/css\/style.css",
-		"oF": 2,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/scss\/stylesheet.scss": {
 		"aP": 1,
 		"bl": 0,
@@ -243,42 +226,10 @@
 		"ft": 4,
 		"ma": 1,
 		"oA": 0,
-		"oAP": "\/stylesheet.css",
-		"oF": 0,
+		"oAP": "\/css\/stylesheet.css",
+		"oF": 2,
 		"oS": 0,
 		"uL": 1
-		},
-	"\/style.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/style-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/style.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/style.css.map",
-		"oF": 0
-		},
-	"\/stylesheet.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/stylesheet-min.css",
-		"oF": 0,
-		"oS": 0
-		},
-	"\/stylesheet.css.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/stylesheet.css.map",
-		"oF": 0
 		}
 	},
 "hooks": [
