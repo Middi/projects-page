@@ -62,6 +62,13 @@ h2 {
   color: #333333;
   padding: 8px 0 2px; }
 
+h2 {
+  font-size: 1.2em;
+  font-family: "Open Sans";
+  font-weight: 400;
+  color: #333333;
+  padding: 8px 0 2px; }
+
 a {
   font-size: 1em; }
 
@@ -113,15 +120,18 @@ a:hover {
   border-radius: 2px;
   z-index: 1;
   cursor: pointer;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
   box-shadow: 0 4px 8px 0 rgba(99, 99, 99, 0.3), 0 6px 16px 0 rgba(99, 99, 99, 0.3); }
   .card img {
-    width: 100%;
+    max-width: 100%;
     height: auto; }
 
 .card-footer {
   height: auto;
   width: 100%;
-  padding: 10px;
+  padding: 16px;
+  margin-top: -2px;
   background-color: white; }
   .card-footer img {
     display: inline;
@@ -130,18 +140,20 @@ a:hover {
     display: inline; }
   .card-footer .description {
     display: block;
-    margin: 6px 0; }
-  .card-footer .username {
-    font-family: "Open Sans";
-    font-size: 1.1em;
-    font-weight: 500; }
+    margin: 6px 0 16px; }
+  .card-footer a {
+    text-decoration: none; }
+    .card-footer a:hover {
+      text-decoration: underline; }
+    .card-footer a .username {
+      font-size: 1.1em;
+      font-weight: 500;
+      margin-bottom: 12px; }
 
 .card:hover {
   -webkit-transform: scale(1.04);
           transform: scale(1.04);
-  z-index: 2;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease; }
+  z-index: 2; }
 
 .tag {
   color: white;
@@ -286,9 +298,8 @@ a:hover {
   header li {
     height: 2px; }
   .card {
-    width: 100%;
+    max-width: 100%;
     border: none;
-    max-width: 624px;
     margin: 0;
     margin-bottom: 48px; }
   .card:hover {
@@ -428,9 +439,11 @@ section {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  z-index: 102; }
+  z-index: 102;
+  max-width: 90vw;
+  max-height: 90vh; }
 
-#img-modal {
+.open-img {
   max-width: 90vw;
   max-height: 90vh; }
 

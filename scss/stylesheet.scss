@@ -151,9 +151,11 @@ section {
     left               : 50%;
     transform          : translate(-50%, -50%);
     z-index            : 102;
+    max-width          : 90vw;
+    max-height         : 90vh;
 }
 
-#img-modal {
+.open-img {
     max-width          : 90vw;
     max-height         : 90vh;
 }

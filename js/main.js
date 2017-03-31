@@ -36,7 +36,9 @@ if (!detectmob()) {
 
 
 
-      document.getElementById('img-modal').src = e.target.src;
+      // document.getElementById('img-modal').src = e.target.src;
+      
+      document.getElementById('modal-content').innerHTML = e.target.parentElement.innerHTML;
 
 
       modal.classList.toggle("closed");

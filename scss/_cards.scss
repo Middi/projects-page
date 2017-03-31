@@ -6,10 +6,11 @@
     border-radius: 2px;
     z-index: 1;
     cursor: pointer;
+    transition: all 0.5s ease;
     box-shadow: 0 4px 8px 0 $shadow, 0 6px 16px 0 $shadow;
 
     img {
-        width: 100%;
+        max-width: 100%;
         height: auto;
     }
 }
@@ -19,7 +20,8 @@
 .card-footer {
   height: auto;
   width: 100%;
-  padding: 10px;
+  padding: 16px;
+  margin-top: -2px;
   background-color: white;
 
   img {
@@ -27,23 +29,25 @@
     max-width: 20px;
   }
 
-.tag { display: inline;
- }
+.tag {display: inline}
 
   .description {
     display: block;
-    margin: 6px 0;
+    margin: 6px 0 16px;
   }
 
-  .username {
-    font-family: "Open Sans";
-    font-size: 1.1em;
-    font-weight: 500;
+  a { 
+    text-decoration: none;
+    &:hover {text-decoration: underline}
+
+    .username {
+      font-size: 1.1em;
+      font-weight: 500;
+      margin-bottom: 12px;
+     }
   }
 }
-
 .card:hover {
   transform: scale(1.04);
   z-index: 2;
-  transition: all 0.5s ease;
 }
