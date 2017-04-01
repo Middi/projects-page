@@ -25,15 +25,6 @@
 		"oAP": "\/css\/stylesheet.css.map",
 		"oF": 0
 		},
-	"\/images\/book.jpg": {
-		"ft": 16384,
-		"iS": 39999,
-		"oA": 0,
-		"oAP": "\/images\/book.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/images\/close.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -44,56 +35,20 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/images\/cult.jpg": {
-		"ft": 16384,
-		"iS": 91861,
-		"oA": 0,
-		"oAP": "\/images\/cult.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/quote.jpg": {
-		"ft": 16384,
-		"iS": 39321,
-		"oA": 0,
-		"oAP": "\/images\/quote.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/images\/twitch.jpg": {
-		"ft": 16384,
-		"iS": 56749,
-		"oA": 0,
-		"oAP": "\/images\/twitch.jpg",
-		"oF": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/images\/weather.jpg": {
-		"ft": 16384,
-		"iS": 492556,
-		"oA": 0,
-		"oAP": "\/images\/weather.jpg",
-		"oF": 0,
-		"opt": 1,
-		"q": 100
-		},
-	"\/images\/wiki.jpg": {
-		"ft": 16384,
-		"iS": 70139,
-		"oA": 0,
-		"oAP": "\/images\/wiki.jpg",
-		"oF": 0,
-		"opt": 0,
-		"q": 100
-		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
+		},
+	"\/js\/main-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/js\/main-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/js\/main.js": {
 		"ft": 64,

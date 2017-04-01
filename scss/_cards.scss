@@ -22,6 +22,9 @@
   width: 100%;
   padding: 16px;
   margin-top: -2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   background-color: white;
 
   img {
@@ -32,8 +35,8 @@
 .tag {display: inline}
 
   .description {
-    display: block;
     margin: 6px 0 16px;
+    flex-grow: 1;
   }
 
   a { 
@@ -47,6 +50,18 @@
      }
   }
 }
+
+.parent{display:flex;
+flex-direction: row;
+justify-content: space-between;
+align-content: space-between;}
+
+.tag-row {
+  align-self: flex-start;
+  
+}
+
+
 .card:hover {
   transform: scale(1.04);
   z-index: 2;
