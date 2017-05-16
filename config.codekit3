@@ -7,7 +7,7 @@
 		"uuidString": "73217B1A-1B43-4AE7-AFB8-D571FE1F8DC7"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25813",
 "files": {
 	"\/css\/stylesheet.css": {
 		"aP": 1,
@@ -25,6 +25,16 @@
 		"oAP": "\/css\/stylesheet.css.map",
 		"oF": 0
 		},
+	"\/images\/book.jpg": {
+		"ft": 16384,
+		"iS": 17314,
+		"oA": 0,
+		"oAP": "\/images\/book.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/close.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -34,6 +44,76 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/cult.jpg": {
+		"ft": 16384,
+		"iS": 43217,
+		"oA": 0,
+		"oAP": "\/images\/cult.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/pomodoro.jpg": {
+		"ft": 16384,
+		"iS": 13616,
+		"oA": 0,
+		"oAP": "\/images\/pomodoro.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/quote.jpg": {
+		"ft": 16384,
+		"iS": 17255,
+		"oA": 0,
+		"oAP": "\/images\/quote.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/sketch.jpg": {
+		"ft": 16384,
+		"iS": 13378,
+		"oA": 0,
+		"oAP": "\/images\/sketch.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/twitch.jpg": {
+		"ft": 16384,
+		"iS": 26748,
+		"oA": 0,
+		"oAP": "\/images\/twitch.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/weather.jpg": {
+		"ft": 16384,
+		"iS": 108778,
+		"oA": 0,
+		"oAP": "\/images\/weather.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/images\/wiki.jpg": {
+		"ft": 16384,
+		"iS": 35710,
+		"oA": 0,
+		"oAP": "\/images\/wiki.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -1182,6 +1262,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -2006,14 +2090,6 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
@@ -2076,7 +2152,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"enableLossy": 1,
+		"optimizerType": 1,
 		"quality": 100
 		},
 	"languageDefaultsPUG": {
