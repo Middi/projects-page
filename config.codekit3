@@ -35,6 +35,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/images\/calculator.jpg": {
+		"ft": 16384,
+		"iS": 19959,
+		"oA": 0,
+		"oAP": "\/images\/calculator.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/images\/close.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -53,6 +63,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/images\/polski.jpg": {
+		"ft": 16384,
+		"iS": 77827,
+		"oA": 0,
+		"oAP": "\/images\/polski.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/images\/pomodoro.jpg": {

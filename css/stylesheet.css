@@ -225,6 +225,12 @@ a:hover {
 .orange:hover {
   background-color: #ff9b0b; }
 
+.black {
+  background-color: #333333; }
+
+.black:hover {
+  background-color: #3d2929; }
+
 .dropdown {
   margin: 50px auto;
   position: relative;

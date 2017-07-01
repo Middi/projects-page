@@ -19,3 +19,6 @@
 .green:hover { background-color: saturate($green500, 20); }
 .orange { background-color: $orange500; }
 .orange:hover { background-color: saturate($orange500, 20); }
+
+.black{ background-color: $black; }
+.black:hover { background-color: saturate($black, 20); }
