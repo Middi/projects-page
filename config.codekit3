@@ -7,7 +7,7 @@
 		"uuidString": "73217B1A-1B43-4AE7-AFB8-D571FE1F8DC7"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "25849",
 "files": {
 	"\/css\/stylesheet.css": {
 		"aP": 1,
@@ -54,6 +54,16 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/images\/contacts.jpg": {
+		"ft": 16384,
+		"iS": 60411,
+		"oA": 0,
+		"oAP": "\/images\/contacts.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/images\/cult.jpg": {
 		"ft": 16384,
@@ -2258,6 +2268,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
